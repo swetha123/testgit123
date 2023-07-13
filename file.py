@@ -1,6 +1,6 @@
 from pymongo.mongo_client import MongoClient
 
-client = MongoClient("mongodb+srv://swethahavalkod123:newmongodb%402023@cluster0.0oyzytt.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://swethahavalkod123:<password>@cluster0.0oyzytt.mongodb.net/?retryWrites=true&w=majority")
 # Send a ping to confirm a successful connection
 db = client.test
 print(db)
