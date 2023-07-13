@@ -16,6 +16,17 @@ d1 = {
     "surname" : "havalkod"
 }
 
+d2 = {
+    "name" : "swetha",
+    "email" : "xyzineuron.com",
+    "surname" : "havalkod"
+}
+d3 = {
+    "name" : "swetha",
+    "email" : "xyzineuron.com",
+    "surname" : "havalkod"
+}
+
 db1 = client['mongotest']
 collecton1 = db1["test"]
 collecton1.insert_one(d1)
